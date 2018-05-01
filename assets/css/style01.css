@@ -81,7 +81,14 @@ footer{
     /* position: absolute;
     bottom: 0%;   */
 }
-
+.projects{
+    margin: auto;
+    text-align: center;
+}
+.projectImg{
+    margin:auto;
+    text-align: center;
+}
 p{
     color:rgba(31, 11, 11, 0.911);
 }

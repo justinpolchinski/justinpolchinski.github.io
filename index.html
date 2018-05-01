@@ -1,57 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style01.css">
-    
-    <title>Justin's Portfolio</title>
-</head>
-<header>
-    <h1 id="myName">Justin Polchinski</h1>
-        <!-- <div id="pageSwitch"> -->
-            <a id="about" href="index.html">About</a>
-            <a id="portfolio" href="portfolio.html">Portfolio</a>
-            <a id= "contact" href="contact.html">Contact</a>
-            
-        <!-- </div> -->
-</header>
-<body>
-    
-    <h2 id="aboutMe">About Me</h2>
-    
-    
-    <div id="main">
-        
-        
-        <img id="jpProfile" src="assets/images/Profile.jpg"></img>     
-        <section id="aboutPara">
-                
-           My name is Justin and people call me Justin. I started programming one day and I don't know why. 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style01.css">
+    <title>Justin Polchinski</title>
+  </head>
+  <body>
+      <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.linkedin.com/in/justin-polchinski-0a592b4b/">LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/justin.polchinski">FaceBook</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/justinpolchinski">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-auto order-0">
+                        <a class="navbar-brand mx-auto" href="index.html">Justin Polchinski</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </header>
+</body>
+<div class="card-background">
+<br>
+<br>
+<br>
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="assets/images/Profile.jpg" alt="Card image cap">
+    <div class="card-body" >
+        <p class="card-text">HTML, CSS, API, JavaScript, Python, Jquery, AJAX, REST, Node.js, BootStrap</p>
+    </div>
+</div>
+</div>
+<div class="jumbotron">
+    <h1 class="display-4">Web Developer</h1>
+    <p class="lead"> My name is Justin and people call me Justin. I started programming one day and it became a hobby. 
             One day I learned of Raspberry Pi, from there I ordered a kit
             for an autonomous car that came with an arduino.  
             My Raspberry Pi and Arduino took my interest for coding to the next level.
             These single board computer/micro-controllers then led me to wanting a career in computers. 
-            Here I am typing in this HTML tag.
-        </section>
-        
-        <div id="socialIcon"><h3>Connect with me</h3>
-            <a href="https://github.com/justinpolchinski/justinpolchinski" >
-                <img id="icon" src="assets/images/github.png"></img>
-            </a>
-            <a href="https://www.linkedin.com/in/justin-polchinski-0a592b4b/">
-                <img id="icon" src="assets/images/linkedin.png"></img>
-            </a>
-            <a href="https://www.facebook.com/justin.polchinski">
-                <img id="icon" src="assets/images/facebook.png"></img>
-            </a>
-        </div> 
+            Here I am typing in this HTML tag. 
+</p>
+    <hr class="my-4">
+</div>
 
-    </div>
-</body>
-<!-- How to get copyright ALT+0169 -->
-<footer>©Copyright 2018 Justin Polchinski</footer>
+    <footer class="footer">
+        <div class="container">
+            <!-- How to get copyright ALT+0169 -->
+            <span class="text-muted">©Copyright 2018 Justin Polchinski</span>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
 </html>

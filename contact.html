@@ -1,57 +1,83 @@
-<!DOCTYPE html>
+border-top: #4aaaa5 3px solid;<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style01.css">
-    <title>Justin's Portfolio</title>
-</head>
-<header>
-    <h1 id="myName">Justin Polchinski</h1>
-        <!-- <div id="pageSwitch"> -->
-            <a id="about" href="index.html">About</a>
-            <a id="portfolio" href="portfolio.html">Portfolio</a>
-            <a id= "contact" href="contact.html">Contact</a>
-            
-        <!-- </div> -->
-</header>
-<body>
-        
-        <div id="main2">
-                <h2 id="contactBody">Contact</h2>
-        
-                <form id="formContact">
-                    Name:<br>
-                    <input id="nameEmail"type="text" name="Name" value="">
-                    <br>
-                    Email:<br>
-                    <input id="nameEmail" type="text" name="Email" value="">
-                    <br><br>
-                    Message:<br>
-                    <input id="message"type="text" name="Message" value="">
-                    <br><br>
-                    <input type="submit" value="Submit">
-                  </form> 
-                
-                <div id="socialIcon2"><h3>Connect with me</h3>
-                    <a href="https://github.com/justinpolchinski/justinpolchinski" >
-                        <img id="icon" src="assets/images/github.png"></img>
-                    </a>
-                    <a href="https://www.linkedin.com/in/justin-polchinski-0a592b4b/">
-                        <img id="icon" src="assets/images/linkedin.png"></img>
-                    </a>
-                    <a href="https://www.facebook.com/justin.polchinski">
-                        <img id="icon" src="assets/images/facebook.png"></img>
-                    </a>
-                </div> 
-        
-            </div>
-    
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style01.css">
+    <title>Justin Polchinski</title>
+  </head>
+  <body>
+      <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.linkedin.com/in/justin-polchinski-0a592b4b/">LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/justin.polchinski">FaceBook</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/justinpolchinski">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-auto order-0">
+                        <a class="navbar-brand mx-auto" href="index.html">Justin Polchinski</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </header>
 </body>
-<!-- How to get copyright ALT+0169 -->
-<footer>©Copyright 2018 Justin Polchinski</footer>
-</html>
+<br>
+<br>
+<br>
+<div class = "contactInfo">
+<form id="usrform" action="https://formspree.io/justinpolchinski.com"
+      method="POST">
+    Name:<br> 
+    <input type="text" name="name">
+    </br>
+    Email:<br>
+    <input id ="" type="email" name="_replyto">
+    <br>
+    Message:
+    <div id="emailField">
+        <input cols="50" id="emailBody"type="text" name="Message" value="">
+    </div>
+    <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+    </br>
+    </br>
+    <input type="submit" value="Send">
+    
+</form>
+</div>  
+    <footer class="footer">
+        <div class="container">
+            <!-- How to get copyright ALT+0169 -->
+            <span class="text-muted">©Copyright 2018 Justin Polchinski</span>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
 </html>

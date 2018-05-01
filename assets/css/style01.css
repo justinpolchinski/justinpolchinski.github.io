@@ -92,3 +92,6 @@ footer{
 p{
     color:rgba(31, 11, 11, 0.911);
 }
+.contactNav{
+    z-index: 1;
+}

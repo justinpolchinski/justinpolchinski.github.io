@@ -78,8 +78,8 @@ footer{
      text-align: center;
      border-top: #4aaaa5 3px solid;
      background: #505858;
-    position: absolute;
-    bottom: 0%;  
+    /* position: absolute;
+    bottom: 0%;   */
 }
 
 p{

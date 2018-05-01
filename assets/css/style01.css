@@ -8,6 +8,7 @@ header{
     font-family: 'Georgia',
      Times, Times New Roman,
       serif;
+    z-index: 100;
 }
 body{
     background: #b9b8b8;
@@ -91,7 +92,4 @@ footer{
 }
 p{
     color:rgba(31, 11, 11, 0.911);
-}
-.contactNav{
-    z-index: 1;
 }

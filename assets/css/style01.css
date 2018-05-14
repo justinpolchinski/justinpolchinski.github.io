@@ -93,3 +93,11 @@ footer{
 p{
     color:rgba(31, 11, 11, 0.911);
 }
+#fishID{
+    display: relative;
+    position: absolute;
+    top: 0;
+    z-index: -20;
+    text-align: center;
+    width: 100%;
+}

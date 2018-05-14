@@ -30,7 +30,7 @@ body{
 .contactInfo{
     text-align: center;
     margin: auto;
-
+    margin-bottom: 15%;
 }
 .centerForm{
     text-align: left;
@@ -39,19 +39,27 @@ body{
     z-index: 1;
 }      
 .jumbotron, .card, .card-body{
-    border-top: #4aaaa5 3px solid;
-    border-bottom: #4aaaa5 3px solid;
+    border: #4aaaa5 3px solid;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10%;
+    margin-bottom: 15%;
 }
+.card-body{
+    width: 100%;
+}
+.card{
+        width: 15rem;
 
+}
 .card{
     margin: auto;
     z-index: -1;
     margin-bottom: 1%;
-}
-.card{
-    
     background-color: #e9ecef;
 }
+
 h1,h2,h3{
     font-family: 'Georgia',
      Times, 
@@ -66,6 +74,7 @@ section,footer{
       sans-serif;
 }
 footer{
+
     width: 100%;
     padding-top: 3%;
     padding-bottom:3%;
@@ -79,8 +88,10 @@ footer{
      text-align: center;
      border-top: #4aaaa5 3px solid;
      background: #505858;
-    /* position: absolute;
-    bottom: 0%;   */
+     display: relative;
+     position: fixed;
+     bottom: 0%;  
+    
 }
 .projects{
     margin: auto;
@@ -95,9 +106,42 @@ p{
 }
 #fishID{
     display: relative;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    bottom: 10%;
+    left: 0%;
     z-index: -20;
     text-align: center;
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 193%;
+    max-height: 116%;
+    margin: auto;
+   
+}
+#projectsContainer{
+    padding-bottom: 15%;
+
+}
+@media only screen and (max-width: 520px) {
+    .card-background {
+        width: 50%;
+        margin:auto;
+        margin-bottom: 10%;
+        z-index: -30;
+    }
+    .card{
+        width: 10rem;
+    }
+    .jumHead{
+        font-size: 1.4em;
+    }
+    .card-body{
+        z-index: -30;
+    }
+    textarea{
+        width: 100%;
+    }
+    #fishID{
+        bottom:0;
+    }
 }

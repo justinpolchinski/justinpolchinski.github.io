@@ -48,24 +48,24 @@ body{
     margin: auto;
     padding-bottom: 6%;
     margin-bottom: 15%;
+    background-color: #4f5153; 
     
 }
 .card-body{
     width: 100%;
 }
 .card{
-        width: 15rem;
-        height: auto;
-
-}
-.card{
+    width: 19rem;
+    height: auto;
+    padding-bottom:5rem;
     margin: auto;
     z-index: -1;
     margin-bottom: 1%;
-    background-color: #e9ecef;
+    background-color: #4f5153;
 }
 .card-text{
-    padding-bottom: 3%;
+    height:auto;
+    padding-bottom: 4%;
 }
 h1,h2,h3{
     font-family: 'Georgia',
@@ -136,8 +136,13 @@ p{
         margin-bottom: 10%;
         z-index: -30;
     }
+    .card-text{
+        height: auto;
+    }
     .card{
         width: 10rem;
+        height: auto;
+        padding-bottom: 18rem;
     }
     .jumHead{
         font-size: 1.4em;

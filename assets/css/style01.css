@@ -48,7 +48,7 @@ body{
     margin: auto;
     padding-bottom: 6%;
     margin-bottom: 15%;
-    background-color: #4f5153; 
+    background-color:darkslategray;
     
 }
 .card-body{
@@ -61,7 +61,7 @@ body{
     margin: auto;
     z-index: -1;
     margin-bottom: 1%;
-    background-color: #4f5153;
+    background-color: darkslategray;
 }
 .card-text{
     height:auto;
